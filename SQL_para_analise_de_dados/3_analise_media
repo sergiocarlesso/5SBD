@@ -1,0 +1,15 @@
+SELECT
+    v.id_venda,
+    v.valor_liquido,
+    ROUND(
+        AVG(v.valor_liquido) OVER(),
+        2
+    ) AS media_geral,
+    ROUND(
+        v.valor_liquido - AVG(v.valor_liquido) OVER(),
+        2
+    ) AS diferenca_media
+FROM
+    vendas v
+ORDER BY
+    v.id_venda;
