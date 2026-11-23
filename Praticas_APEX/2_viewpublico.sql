@@ -5,3 +5,5 @@ SELECT
     ativo
 FROM tb_cliente
 WHERE ativo = 'S';
+
+/* primeiro view basico
