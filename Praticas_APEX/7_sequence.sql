@@ -33,4 +33,4 @@ Em sistemas com muitas operações simultâneas, isso pode aumentar a contençã
 
 Como consequência, a geração de novos números pode ficar mais lenta, prejudicando o desempenho das operações de INSERT.
 
-Por isso, a utilização de CACHE é recomendada em sistemas com alto volume de operações, pois mantém valores disponíveis na memória e melhora a performance.
+Por isso, a utilização de CACHE é recomendada em sistemas com alto volume de operações, pois mantém valores disponíveis na memória e melhora a performance. */
